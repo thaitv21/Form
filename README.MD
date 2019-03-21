@@ -6,6 +6,10 @@ Support validating some types of EditText:
 - Phone
 - URL
 
+# Demo
+![Alt Text](https://github.com/thaitv21/Form/raw/master/demo.gif)
+
+
 # Installation
 
 #### Step 1: Add it in your root build.gradle at the end of repositories:
