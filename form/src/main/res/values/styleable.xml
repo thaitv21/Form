@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FormEditText">
+        <attr name="regex" format="string"/>
+        <attr name="containsSpecialCharacter" format="boolean"/>
+        <attr name="containsDigit" format="boolean"/>
+        <attr name="containsUpperCase" format="boolean"/>
+        <attr name="passwordMinLength" format="integer"/>
+        <attr name="trim" format="boolean"/>
+    </declare-styleable>
+</resources>
