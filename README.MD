@@ -1,6 +1,6 @@
 # Form
 
-Support validating some types of EditText:
+An Android support validating some types of EditText:
 - Email
 - Password (with FormEditText instead of EditText)
 - Phone
