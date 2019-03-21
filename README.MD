@@ -186,5 +186,6 @@ ValidationUtils.validate(linearLayout, new Callback() {
 });
 ```
 
-
-
+# Develop by
+Than Thai
+Contact: thaitv210@gmail.com
