@@ -1,4 +1,4 @@
-#Form
+# Form
 
 Support validating some types of EditText:
 - Email
@@ -6,9 +6,9 @@ Support validating some types of EditText:
 - Phone
 - URL
 
-#Installation
+# Installation
 
-####Step 1: Add it in your root build.gradle at the end of repositories:
+#### Step 1: Add it in your root build.gradle at the end of repositories:
 ```
 allprojects {
 	repositories {
@@ -18,17 +18,17 @@ allprojects {
 }
 ```
 
-####Step 2: Add the dependency
+#### Step 2: Add the dependency
 ```
 implementation 'com.github.thaitv21:Form:Tag'
 ```
 
 Well, now you can use it.
 
-#Usage
+# Usage
 There are many ways to validate input value.
 
-###Option 1: Use Validation
+### Option 1: Use Validation
 ```
 new Validation.Builder().addAll(edtEmail, edtPhone, edtPassword).build().validate(new Callback() {
     @Override
@@ -59,7 +59,7 @@ addAll(EditText... editTexts)
 addAll(List<EditText> editTexts)
 ```
 
-###Option 2: Use FormLinearLayout
+### Option 2: Use FormLinearLayout
 FormLinearLayout is an extended LinearLayout. In order to validate all of EditText, you just wrap your layout with a element <FormLinearLayout> like this:
 ```angular2html
 <com.thaitv.form.FormLinearLayout
@@ -131,7 +131,7 @@ formlinear.validate(new Callback() {
 
 As you see, I don't need any instance of EditText.
 
-#Option 3: For any layout
+### Option 3: For any layout
 It's helpful if you don't want to make your layout more staked.
 For any layout, like this:
 ```
