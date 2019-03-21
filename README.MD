@@ -187,5 +187,5 @@ ValidationUtils.validate(linearLayout, new Callback() {
 ```
 
 # Develop by
-Than Thai
+Than Thai<br>
 Contact: thaitv210@gmail.com
